@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Launcher")]
+[assembly: AssemblyTitle("Headless Ghidra GUI")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Launcher")]
-[assembly: AssemblyCopyright("Copyright © c0dycode 2019")]
+[assembly: AssemblyProduct("Headless Ghidra GUI")]
+[assembly: AssemblyCopyright("Copyright © c0dycode 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5bf8e7d5-c199-4ad1-b31a-ce6902a2fa41")]
+[assembly: Guid("f338fe4b-6db6-47fc-ae26-50e59823a7a6")]
 
 // Version information for an assembly consists of the following four values:
 //

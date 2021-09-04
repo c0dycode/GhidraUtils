@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
+using System.IO;
 
 namespace Launcher
 {
@@ -10,6 +7,15 @@ namespace Launcher
     {
         static void Main(string[] args)
         {
+            if (!File.Exists("ghidraRun.bat"))
+                return;
+            Process proc = new Process();
+            proc.StartInfo = new ProcessStartInfo
+            {
+                FileName = "ghidraRun.bat"
+            };
+
+            proc.Start();
         }
     }
 }
