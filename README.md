@@ -7,7 +7,7 @@ I use it simply to pin ghidra to the taskbar.
 
 ## HeadlessGUI
 The HeadlessGUI is a simple GUI tool that provides the bare minimum to utilize the `analyzeHeadless.bat`.
-After reading about the `analyzeHeadless.bat' in [this](https://kiwidog.me/2021/07/analysis-of-large-binaries-and-games-in-ghidra-sre/) article by KIWIDOG, I wanted to try it out, but did not want to keep remembering the command line flags.
+After reading about the `analyzeHeadless.bat` in [this](https://kiwidog.me/2021/07/analysis-of-large-binaries-and-games-in-ghidra-sre/) article by KIWIDOG, I wanted to try it out, but did not want to keep remembering the command line flags.
 
 So I created this minimalistic GUI application that lets you use the "Import" and "Analyze" functionality of the batch-file.
 This appeared to improve the time it takes for ghidra to decompile/analyze a binary drastically.
