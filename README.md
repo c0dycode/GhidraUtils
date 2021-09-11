@@ -31,3 +31,6 @@ For example: I want to disassemble/analyze `notepad.exe` and that should be adde
 Note: You can **NOT** have the `General` project oben in Ghidra itself, otherwise the project will be locked.
 
 The `Analyze` button seems to just re-analyze the selected project/file.
+
+# Disclaimer
+The icon is directly taken from Ghidra. https://github.com/NationalSecurityAgency/ghidra
