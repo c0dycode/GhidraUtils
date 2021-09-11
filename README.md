@@ -2,7 +2,7 @@
 Currently there's two tools in this repository.
 
 ## Launcher
-The launcher is a very simple tool, that is just there to launch the ghidra via the batch-file.
+The launcher is a very simple tool, that is just there to launch ghidra via the batch-file.
 I use it simply to pin ghidra to the taskbar.
 
 ## HeadlessGUI
